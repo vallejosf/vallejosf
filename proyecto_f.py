@@ -8,7 +8,7 @@ print("└───────────────────────�
 print("")
 
 # ********************
-# *VARIABLES GLOBALES*
+# *global variables*
 # ********************
 
 running = True 
@@ -18,7 +18,7 @@ database = [{'nombre': 'Fernando', 'historia': 'Dolor de espalda'}, {'nombre': '
 
 
 # ********************
-# *    FUNCIONES     *
+# *    FUNCTIONS     *
 # ********************
 
 def show_menu():
@@ -49,7 +49,7 @@ def response_validated(r):
     return validated,num_res,msg
 
 # ********************
-# *  LOOP PRINCIPAL  *
+# *  MAIN LOOP  *
 # ********************
 
 while running:
